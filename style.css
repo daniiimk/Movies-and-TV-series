@@ -13,6 +13,26 @@ body {
   background: #272626;
 }
 
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
 img {
   border-radius: 0.3rem;
 }
@@ -25,8 +45,18 @@ img {
   position: relative;
 }
 
+.favorite-show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
 .front-page-img {
   border-radius: 1rem;
+  width: 50rem;
 }
 
 .fa-chevron-left {
